@@ -1,0 +1,115 @@
+https://codepen.io/taylorkangillescas/pen/KKgdPXb
+
+
+1. What is Semantic HTML?
+-Semantic HTML reinforces meaning or information. It is specific. 
+    
+2. What is HTML used for?
+-It is essentially the structure of a webpage. It lays down the foundation. Hypertext Markup Language.
+
+3. What is an attribute and where do we put it?
+-It is specified in the start tag and defines properties of elements such as width, height, etc.
+ 
+4. What is the h1 tag used for? How many times should I use it on a page?
+-h1 tags are used to show the header that is most important. It is the first thing you see on a page and should be used once. You can descend down to h2 h3, etc as things become less important.
+
+5. Name two tags that have required attributes
+-img and input
+
+6. What do we put in the head of our HTML document? 
+-You put whatever is most important. h1 tags and maybe a little bit of info previewing the webpage.
+
+7. What is an id? 
+-It is an attribute that specifies a unique id for an element. Cannot have two+ elements with same id in a doc.
+    
+8. What elements can I add an id to? 
+-An element that does not already have an existing id attached.    
+
+9. How many times can I use the same id on a page? 
+-Element IDs should be unique within the entire document.
+
+10. What is a class?
+-Attribute that specifies a class for an element. Helps for reference with css and be specific. 
+    
+11. What elements can I add a class to?
+-Elements that you want to specify and refer to later in CSS 
+    
+12. How many times can I use the same class on a page?
+-Technically as many as you want. Doesn't seem very practical though 
+    
+13. How do I get my link to open in a new tab?
+- target="_blank"
+    
+14. What is the alt attribute in the image tag used for? 
+-Provides information about the image.
+    
+15. How do I reference an id?
+-#id
+    
+16. What is the difference between a section and a div
+-Section is more specific with what it is containing.
+    
+17. What is CSS used for? 
+-Cascading Style Sheets. Used to help with design and how a page looks.
+    
+18. How to we select an element? Example - every h2 on the page
+- h2 {}
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+-Classes are not unique like id's are. You might use a class more generally while an id is used to apply a css property to one attribute only.
+    
+20. How do we select classes in CSS?
+-.name of class{}
+    
+21. How do we select a p element with a single class of “human””?
+-.human p {}
+    
+22. What is a parent child selector? When would this be useful?
+-Selects all elements that are direct Childs of the parent element. This can save you time from individually adding each element to css.
+    
+23. How do you select all links within a div with the class of sidebar?
+- .sidebar div a:link
+    
+24. What is a pseudo selector?
+-Selects elements that are the first of their type or are being hovered over.
+    
+25. What do we use the change the spacing between lines?
+-<br>, line-height,
+    
+26. What do we use to change the spacing between letters?
+-letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+-text-transform: capitalize, uppercase, lowercase, etc
+
+28. How do I add a 1px border around my div that is dotted and black?
+- div {border-size: 1px; color: black; border-style: dotted;}
+
+    
+29. How do I select everything on the page? 
+-* {}
+    
+30. How do I write a comment in CSS?
+-/* */
+    
+31. How do I find out what file I am in, when I am using the command line? 
+-pwd
+    
+32. Using the command line - how do I see a list of files/folders in my current folder?
+-ls
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+-rm be careful because once you delete it, it's gone. 
+    
+34. Why should I use version control? 
+-allows collaboration and changes without risking conflicting work. Also allows you to revert back to a saved version.
+    
+35. How often should I commit to github?
+-Often. Commit often and perfect later.
+    
+36. What is the command we would use to push our repo up to github? 
+-git push
+    
+37. Walk me through Lambda's git flow. 
+-Fork, Clone, Branch, Complete Assignment, Add, Commit, Push
+
